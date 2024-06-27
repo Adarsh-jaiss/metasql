@@ -7,4 +7,4 @@ goal :
 
 ### Milestone 1 : (Redshift)
 
-- Add support for microsoft
+- Add support for Redshift

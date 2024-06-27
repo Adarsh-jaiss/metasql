@@ -6,3 +6,12 @@ func Nullif(str string) *string {
 	}
 	return &str
 }
+
+func Coalesce(strs ...*string) string {
+	for _, str := range strs {
+		if str != nil {
+			return *str
+		}
+	}
+	return ""
+}
